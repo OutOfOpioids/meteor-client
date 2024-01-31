@@ -99,7 +99,7 @@ public class Config extends System<Config> {
     public final Setting<String> prefix = sgChat.add(new StringSetting.Builder()
         .name("prefix")
         .description("Prefix.")
-        .defaultValue(".")
+        .defaultValue("+")
         .build()
     );
 
